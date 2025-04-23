@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase - Phone Authentication</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="padding: 2rem;">
+  <h1 style="font-weight: bold; font-size: 3rem;">Firebase Phone Authentication</h1>
+  <div style="font-weight: bold;">
+    <p>Created By: <a href="https://gouravgupta.com">GouravGupta.Com</a>, check him out!</p>
+  </div>
+  <div>
+    <div>
+      <input type="text" placeholder="+1 650-555-1234" id="phone-field"/>
+      <button id="send-btn" type="button">Send ﷲ</button>
+    </div>
+    <div>
+      <input type="number" placeholder="OTP" id="otp-field">
+      <button id="verify-btn" type="button">Verify ✅</button>
+    </div>
+  </div>
+  <div id="sign-in-button"></div>
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
